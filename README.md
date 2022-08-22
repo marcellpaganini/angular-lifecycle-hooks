@@ -54,7 +54,7 @@ Solution: Add FormsModule and ReactiveFormsModule to the imports array in app.mo
 
 ### Constructor  
 Although not a lifecycle hook, constructor is the first thing called when the component is instantiated. At this moment, the component properties are not accessed yet.  
-## ngOnChanges  
+### ngOnChanges  
 Runs everytime component properties are updated. The first update occurs before OnInit. It doesn't run when event is fired up with no property change. It has a SimplesChanges parameter that allows us to access the previous current values of a specific property and check if it's the first change.  
 ### ngOnInit  
 We need to import and implement OnInit in the class declaration.  It is fired once, just after the first change detection cycle. By this time the properties are already accessible and updated. That's the best place to add inilialization logic for the component.   
