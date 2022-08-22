@@ -1,0 +1,11 @@
+.demo {
+    margin: 5%;
+    border: 1px solid green;
+    border-radius: 2%;
+    background-color: rgb(197, 241, 197);
+    padding: 1%;
+}
+
+p {
+    margin: auto;
+}
